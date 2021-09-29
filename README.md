@@ -75,7 +75,7 @@ The next thing you may want to do...which is entirely 'optional'...is change the
 ### Runing the server remotely...using SSH/Secure Shell...  
 
 What really surprised me, somewhat...  
--(though, I have used Windows 'Putty' software to remotely SSH into my Raspbian Pi, before)-    
+-(though, I have used Windows 'Putty' software to remotely SSH into my Raspberry Pi single board computer machine, before)-    
 ...was realising I don't need to use Linode web browser interface to connect to my server;    
 instead, I can use either: MS DOS Command Prompt/or, Powershell...; either way the instructions are the same...  
 
@@ -84,6 +84,10 @@ instead, I can use either: MS DOS Command Prompt/or, Powershell...; either way t
 >> yourPreferredHostName@~:  
 
 ...then, it's possible to issue all of the same linux commands as is usual.
+
+**NOTE**: How to stop a server session running? Simply, type:  
+
+>> exit  
 
 ## Some basic LINUX commands...
 
