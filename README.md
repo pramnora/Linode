@@ -33,7 +33,7 @@ Then, you just configure the page how you want...
 - Select how much server capacity you want. (I choose 4GB/2 Cores...which was the 'cheapest' option)      
 - Give the server a reference name: Ubuntu-2004-sever1  
 - Choose the location which is nearest you: London/UK  
-- Select a password to use with your server.   
+- Select a 'root' password to use with your server.   
 - Finally, click on button: [Create]  
 ...and, basically, that was it...I had Linode server 'up and running'...;    
 you are given an IP address to SSH/Secure Shell into...  
