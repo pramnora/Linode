@@ -31,7 +31,7 @@ automatically, selected is the option: Linodes.
 Then, you just configure the page how you want...  
 - What type of server: Debian/UBuntu/-etc. (I choose Ubuntu 20:04 LTS)    
 - Select how much server capacity you want. (I choose 4GB/2 Cores...which was the 'cheapest' option)      
-- Give the server a reference name: Ubuntu-2004-sever1  
+- Give the server a reference name: Ubuntu-2004-server1  
 - Choose the location which is nearest you: London/UK  
 - Select a 'root' password to use with your server.   
 - Finally, click on button: [Create]  
