@@ -43,9 +43,9 @@ root@xx.xx.xx.xx
 
 In order to make the server run...      
 - click on [Power On]  
-...the button light will go from yellow/orange/green;  
+...the button light will go from gray/yellow/orange/green;  
 (green light meaning it's fully on...and, ready to take commands;  
- yellow light meaning it's, now, off; and, therefore, no longer running.)         
+ gray light meaning it's, now, off; and, therefore, no longer running.)         
 
 Also, click where it says: [Launch LISH console]...;    
 ...which will launch the 'web browser based' sever console.  
@@ -142,8 +142,10 @@ Here are a few of the difficulties I'm having...
 
 - Instead, of having to communicate with the Linux server using 'text' based commands;    
   I would have much preferred using a GUI, instead; just not sure how to set this up...?   
+  
 - Being mostly 'unfamiliar' with the use of Linux commands...;    
   therefore, it is really very 'limited' the type of things I can do.     
+  
 - At the moment, I'm still none too sure about how to take the server down, completely;    
   as opposed to pausing it/and, thus, putting it in offline mode;  
   (as I will still need to keep on paying charges to have it there to use, anyway...?!)  
