@@ -122,7 +122,17 @@ Open a text editor...
 or, watching a few YouTube Linux command tutorials...would most certainly help out an awful lot     
 before you try running any Linux based server.     
 
+## CURRENT PROBLEMS...
 
+Here are a few of the difficulties I'm having...
+
+- Instead, of having to communicate with the Linux server using 'text' based commands;    
+  I would have much preferred using a GUI, instead; just not sure how to set this up...?   
+- Being mostly 'unfamiliar' with the use of Linux commands...;    
+  therefore, it is really very 'limited' the type of things I can do.     
+- At the moment, I'm still none too sure about how to take the server down, completely;    
+  as opposed to pausing it/and, thus, putting it in offline mode;  
+  (as I will still need to keep on paying charges to have it there to use, anyway...?!)  
 
 
 
