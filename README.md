@@ -176,6 +176,15 @@ Here are a few of the difficulties I'm having...
 - Being mostly 'unfamiliar' with the use of Linux commands...;    
   therefore, it is really very 'limited' the type of things I can do...?!        
   
+- At first, I was able to get in using [Launch LISH Console]...;      
+  but, then, each time I tried doing the same thing, later on...; it didn't work...?!      
+  The error message kept on saying...  
+  Login incorrect  
+  ...after trying, again and again, repeatedly; I decided to quit using that method;  
+  (even, though, I was able to get in through using other methods: MS DOS/Powershell/Putty;  
+   so, I'm not exactly sure what I did wrong...?!)  
+ 
+  
 
 
 
