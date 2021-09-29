@@ -83,12 +83,26 @@ The next thing you may want to do...which is entirely 'optional'...is change the
 
 >>yourPreferredHostName@~:    
 
+### How to 'stop' the server running...; meaning, put it on pause...(ready to run, again/with all your data/configuration still intact)...  
 
 In order to 'stop the server running...you will need to do 2 things...  
 
 - Type: exit, to quit running the Linux sesssion.   
 - Click the web browser console button: [Power Off]    
 
+### How to 'delete' the server, altogether...; and, not just merely pause/'stop' it running...(will also delete all previous data/configuration)...            
+
+**NOTE**: Because, as long as you own an instance server...; that's always ready to run...;   
+          you will, of course, still be charged money if that server is actually up and running or not...?!    
+          Therefore, if you don't wish to maintain running the server, constantly...;   
+          and, thus, stop any charges from further accumulating...;    
+          it's best to 'delete' the server instance, altoghther.   
+          Just looking for the 3 dots ellipses: ...; next, to option [Power on]...;    
+          then, a drop down menu will appear...all you have to do is click option: [Delete].  
+          
+          -(However, when you do delete the server altogether;  
+          then, next time you will have to set up running a brand 'new' instance...;   
+          also, all of your previously entered server data/configurations would have completely gone!)-   
 
 ### Runing the server remotely...using SSH/Secure Shell...  
 
@@ -140,16 +154,12 @@ before you try running any Linux based server.
 
 Here are a few of the difficulties I'm having...
 
-- Instead, of having to communicate with the Linux server using 'text' based commands;    
-  I would have much preferred using a GUI, instead; just not sure how to set this up...?   
+- Instead, of having to communicate with the Linux server using CLI/Command Line Interface...meaning, all 'text' based commands;      
+  I would have much preferred using a GUI/Grahical User Interface, instead; just not sure how to set this up...?   
   
 - Being mostly 'unfamiliar' with the use of Linux commands...;    
-  therefore, it is really very 'limited' the type of things I can do.     
+  therefore, it is really very 'limited' the type of things I can do...?!        
   
-- At the moment, I'm still none too sure about how to take the server down, completely;    
-  as opposed to pausing it/and, thus, putting it in offline mode;  
-  (as I will still need to keep on paying charges to have it there to use, anyway...?!)  
-
 
 
 
