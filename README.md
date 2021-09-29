@@ -198,9 +198,14 @@ Here are a few of the difficulties I'm having...
   (even, though, I was able to get in through using other methods: MS DOS/Powershell/Putty;  
    so, I'm not exactly sure what I did wrong...?!)  
  
- - Normally, the server when you hit [Power off] would shut down in under 1 minute long...;   
-   however, one time I tried shutting it down...; and, it took over 4 minutes long to to shut down...?!   
+- As well as, [LISH]/I noticed something beside it called: GLISH...;    
+  I don't know if GLISH is meant to be the Graphical UI, possibly...;    
+  anyway, both LISH/GLISH wouldn't let me in, anymore...;      
+  (either the way I tried connecting using root/password/or, something not quite working...)?!    
 
+ - Normally, the server when you hit [Power off] would shut down in under 1 minute long...;    
+   however, one time I tried shutting it down...; and, it took over 4 minutes long to to shut down...;     
+   which made me wonder if it was ever going to shut down at all...?! But, it did, eventually.   
 
 
 
