@@ -41,8 +41,15 @@ root@xx.xx.xx.xx
 
 ### Runing the server...using Linode online Web Browser console window...   
 
-In order to make the server run...  
-- click on [Power On]    
+In order to make the server run...      
+- click on [Power On]  
+...the button light will go from yellow/orange/green;  
+(green light meaning it's fully on...and, ready to take commands;  
+ yellow light meaning it's, now, off; and, therefore, no longer running.)         
+
+Also, click where it says: [Launch LISH console]...;    
+...which will launch the 'web browser based' sever console.  
+
 Next, you can sign in to the online web browser based console, type...  
 
 >> root@xx.xx.xx.xx    
