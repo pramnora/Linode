@@ -94,7 +94,7 @@ Show what is the current working folder directory path/(print working directory)
 >>root~: pwd  
 
 Create a new file...  
->>root~: touch abc.xyz  
+>>root~: touch fileName.fileNameExtension  
 
 **NOTE**: Linux files don't need to have any 3 letter file name extension at all/(unlike Windows)     
 
@@ -113,6 +113,10 @@ Show the current calender date...
 Open a text editor...
 >>root~: nano fileName.fileNameExtension  
 
+**NOTE**: Either reading a good Linux tutorial book...  
+-(especially, concerning what is the particular Linux distribution you wish to use)-;    
+or, watching a few YouTube Linux command tutorials...would most certainly help out an awful lot     
+before you try running any Linux based server.     
 
 
 
