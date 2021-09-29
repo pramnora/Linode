@@ -20,7 +20,8 @@ Basically, all one has to do to register with the Linode service is...give them 
 - name: First Name/Last Name      
 - email  
 - credit card  details  
-...they will send you an email which you click on to confirm it's you; and, that's it you're, now, fully registered to use their services.  
+...they will send you an email which you click on to confirm it's you;   
+and, that's it you're, now, fully registered to use their services.  
 
 ### Creating your 1st server instance on Linode...  
 
@@ -65,22 +66,22 @@ The next thing you may want to do...which is entirely 'optional'...is change the
 
 ...to become a name you prefer...type in...  
 
->>root@~: hostnamectl set-hostname pramnora  
+>>root@~: hostnamectl set-hostname yourPreferredHostName  
 
 -(now you will need to logout out...by typing: exit...then, log back in, again...to see the prompt change to become...)    
 
->>pramnora@~:    
+>>yourPreferredHostName@~:    
 
-### Runing the server...using SSH/Secure Shell...  
+### Runing the server remotely...using SSH/Secure Shell...  
 
 What really surprised me, somewhat...  
--(though, I have used Windows 'Putty' software to SSH into my Raspbian Pi, before)-    
+-(though, I have used Windows 'Putty' software to remotely SSH into my Raspbian Pi, before)-    
 ...was realising I don't need to use Linode web browser interface to connect to my server;    
 instead, I can use either: MS DOS Command Prompt/or, Powershell...; either way the instructions are the same...  
 
 >> ssh root@xx.xx.xx.xx  
 >> password:   
->> pramnora@~:  
+>> yourPreferredHostName@~:  
 
 ...then, it's possible to issue all of the same linux commands as is usual.
 
