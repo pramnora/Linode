@@ -81,7 +81,7 @@ instead, I can use either: MS DOS Command Prompt/or, Powershell...; either way t
 
 >> ssh root@xx.xx.xx.xx  
 >> password:   
->> yourPreferredHostName@~:  
+>> root@~:  
 
 ...then, it's possible to issue all of the same linux commands as is usual.
 
