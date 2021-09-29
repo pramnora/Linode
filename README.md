@@ -92,17 +92,21 @@ In order to 'stop the server running...you will need to do 2 things...
 
 ### How to 'delete' the server, altogether...; and, not just merely pause/'stop' it running...(will also delete all previous data/configuration)...            
 
-**NOTE**: Because, as long as you own an instance server...; that's always ready to run...;   
-          you will, of course, still be charged money if that server is actually up and running or not...?!    
+**NOTE**: Because, as long as you own an instance server...that's always ready and waiting to run...;    
+          which, at the same time, is storing 'your' data on it.../and, 'your' configuration set up...;  
+          you will, of course, still be charged money  
+          whether that server is actually up and running still/or, not...?!   
+   
           Therefore, if you don't wish to maintain running the server, constantly...;   
-          and, thus, stop any charges from further accumulating...;    
-          it's best to 'delete' the server instance, altoghther.   
-          Just looking for the 3 dots ellipses: ...; next, to option [Power on]...;    
+          and, thus, prevent any charges from further accumulating...;    
+          it's best to 'delete' the server instance, altogether.   
+          Just try looking for the 3 dots ellipses: ...; next, to option [Power on]...;    
           then, a drop down menu will appear...all you have to do is click option: [Delete].  
           
-          -(However, when you do delete the server altogether;  
-          then, next time you will have to set up running a brand 'new' instance...;   
-          also, all of your previously entered server data/configurations would have completely gone!)-   
+          -(However, when you do 'delete' the server altogether;  
+          then, next time, you will have to set up running a brand 'new' server instance...starting, again, from total scratch;    
+          and, also, be given a brand new IP address...to connect to...;  
+          too, all of your previously entered server data/configurations would have completely vanished/gone...?!)-   
 
 ### Runing the server remotely...using SSH/Secure Shell...  
 
