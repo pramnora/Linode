@@ -108,7 +108,7 @@ In order to 'stop the server running...you will need to do 2 things...
           and, also, be given a brand new IP address...to connect to...;  
           too, all of your previously entered server data/configurations would have completely vanished/gone...?!)-   
 
-### Runing the server remotely...using SSH/Secure Shell...  
+### Running the server remotely...using SSH/Secure Shell...  
 
 What really surprised me, somewhat...  
 -(though, I have used Windows 'Putty' software to remotely SSH into my Raspberry Pi single board computer machine, before)-    
@@ -120,6 +120,18 @@ instead, I can use either: MS DOS Command Prompt/or, Powershell...; either way t
 >> root@~:  
 
 ...then, it's possible to issue all of the same linux commands as is usual.  
+
+### Running the server using Putty software...
+
+I tried SSH-ing into Linode server using Putty software...  
+
+First, you type in the IP Address as: xx.xx.xx.xx  
+Next, you click [Open session]  
+Then, you are asked for your name: root  
+followed by password:  
+...if you typed your password, correctly; then, you are let in.  
+
+>>root@localhost~:
 
 ## Some basic LINUX commands...
 
