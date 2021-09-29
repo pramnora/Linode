@@ -170,14 +170,28 @@ before you try running any Linux based server.
 
 Here are a few of the difficulties I'm having...
 
-- Instead, of having to communicate with the Linux server using CLI/Command Line Interface...meaning, all 'text' based commands;      
-  I would have much preferred using a GUI/Grahical User Interface, instead; just not sure how to set this up...?   
-  
 - Being mostly 'unfamiliar' with the use of Linux commands...;    
   therefore, it is really very 'limited' the type of things I can do...?!        
   
+- Instead, of having to communicate with the Linux server through using a CLI/Command Line Interface...meaning, all 'text' based commands;      
+  I would have much preferred using a GUI/Graphical User Interface, instead; just not sure how to set this up...?   
+
+  I saw it mentioned somewhere that if you use, instead of:   
+  ssh root@xx...    
+  ...add a -X...         
+  ssh -X root@xx.xx.xx.xx  
+  ...then, the graphical interface might work;   
+  but, when I tried doing that...  
+  after, first, installing...  
+  apt get firefox  
+  ...then, calling up...    
+  firefox  
+  ...it didn't work?!  
+  
 - At first, I was able to get in using [Launch LISH Console]...;      
-  but, then, each time I tried doing the same thing, later on...; it didn't work...?!      
+  but, then, each time I tried doing the same thing, later on...;   
+  I'd gone and created 2 brand new sever instances...  
+  it didn't work...?!      
   The error message kept on saying...  
   Login incorrect  
   ...after trying, again and again, repeatedly; I decided to quit using that method;  
