@@ -85,6 +85,34 @@ instead, I can use either: MS DOS Command Prompt/or, Powershell...; either way t
 
 ...then, it's possible to issue all of the same linux commands as is usual.
 
+## Some basic LINUX commands...
+
+List files/folders...  
+>>root~: ls  
+
+Show what is the current working folder directory path/(print working directory)...  
+>>root~: pwd  
+
+Create a new file...  
+>>root~: touch abc.xyz  
+
+**NOTE**: Linux files don't need to have any 3 letter file name extension at all/(unlike Windows)     
+
+Make a folder...  
+>>root~: mkdir dirName  
+  
+Move to foder...
+>>root~: cd dirName  
+
+Move backwards...  
+>>root~: cd ..  
+
+Show the current calender date...
+>>root~: cal  
+
+Open a text editor...
+>>root~: nano fileName.fileNameExtension  
+
 
 
 
