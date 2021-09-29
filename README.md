@@ -12,7 +12,7 @@ discovered the price is, in fact, fairly cheap; namely,...
 - £0.04p per hour  
 - £30.00 monthly  
  
-(**NOTE:** Unless you take the server down...; then, they will charge you whether the server is actually up and running/or, not...?!)  
+(**NOTE:** Unless you take the server down, completely...; then, they will charge you whether the server is actually up and running/or, not...?!)  
 
 ### Registering to use the Linode Service...  
 
@@ -42,14 +42,18 @@ root@xx.xx.xx.xx
 ### Runing the server...using Linode online Web Browser console window...   
 
 In order to make the server run...  
-- click on [Start server]    
+- click on [Power On]    
 Next, you can sign in to the online web browser based console, type...  
 
 >> root@xx.xx.xx.xx    
 >> password:    
 >> root@~:  
 
-...and, that's it. Your now running your very own web server 'live'...;    
+...and, that's it, once you can witness seeing the Linux prompt...  
+
+>> root@~:  
+
+...this means, you are now running your very own web server 'live'...;    
 -(though, it might take a minute or two getting it to fully provision/boot up...)-;    
 and, can now run all sorts of Linux based commands such as: cal/ls/pwd/-etc.  
 
@@ -72,6 +76,13 @@ The next thing you may want to do...which is entirely 'optional'...is change the
 
 >>yourPreferredHostName@~:    
 
+
+In order to 'stop the server running...you will need to do 2 things...  
+
+- Type: exit, to quit running the Linux sesssion.   
+- Click the web browser console button: [Power Off]    
+
+
 ### Runing the server remotely...using SSH/Secure Shell...  
 
 What really surprised me, somewhat...  
@@ -83,11 +94,7 @@ instead, I can use either: MS DOS Command Prompt/or, Powershell...; either way t
 >> password:   
 >> root@~:  
 
-...then, it's possible to issue all of the same linux commands as is usual.
-
-**NOTE**: How to stop a server session running? Simply, type:  
-
->> exit  
+...then, it's possible to issue all of the same linux commands as is usual.  
 
 ## Some basic LINUX commands...
 
