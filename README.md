@@ -302,11 +302,11 @@ Here are a few of the difficulties I'm having...
   - etc.  
 
 **NOTE**: If all you wished to do...was to simply...    
-          start a server/(and, keep it running for just a few minutes/hours...)  
-          test it  
-          stop it, running  
-          then, delete it  
-          ...the price you would pay to do that is just merely pennies/NOT pounds.    
+          - start a server/(and, keep it running for just a few minutes/hours...)  
+          - test it  
+          - stop it, running  
+          - then, delete it, afterwards.    
+          ...then, the price you would pay to do that is just merely pennies/NOT pounds.    
 
 ## LINKS...
 
