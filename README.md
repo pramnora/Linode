@@ -303,12 +303,20 @@ Here are a few of the difficulties I'm having...
   - add web pages  
   - etc.  
 
-**NOTE**: If all you wished to do...was to simply...    
-          - start a server/(and, keep it running for just a few minutes/hours...)  
-          - test it  
-          - stop it, running  
-          - then, delete it, afterwards.    
-          ...then, the price you would pay to do that is just merely pennies/NOT pounds.    
+If all you wished to do...was to simply...    
+- start a server/(and, keep it running for just a few minutes/hours...)  
+- test it  
+- stop it, running  
+- then, delete it, afterwards.    
+...then, the actual price you would pay to do that is just merely pennies/NOT pounds.    
+
+Alongside the advent of modern day 'cloud computing'...  
+computer operators/programmers can both study/learn 'hands on', very cheaply, indeed;      
+if not entirely all for FREE.  
+This is because they are no longer 'forced' to...   
+- buy programming languages/manuals  (many of which can be downloaded for FREE)  
+- buy computer boxes.../containing different operating systems inside   
+...which makes the learning process both a lot less costly/and, also, makes learning 'fast'.         
 
 ## LINKS...
 
