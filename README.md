@@ -8,11 +8,17 @@ Linode, create/build/run your own online servers...for a price...
 Today, 29 September 2021, I had a most truly remarkable experience; namely, I visited the 'cloud hosting' service...    
 - https://www.linode.com  
 ...and, after reading up about the charges for creating/building/running your own online server...;    
-discovered the price is, in fact, fairly cheap; namely,...    
+discovered the price is, in fact, fairly 'cheap'; namely,...    
 - £0.04p per hour  
 - £30.00 monthly  
+
+-(**NOTE:** Unless you take the server down, completely...; then, they will charge you whether the server is actually up and running/or, not...?!)-    
  
-(**NOTE:** Unless you take the server down, completely...; then, they will charge you whether the server is actually up and running/or, not...?!)  
+**LATEST UPDATE Concerning price...**  
+
+*30 September 2021 03:44 PM GMT*   
+I had selected the wrong tab: Dedicated servers...which are more 'expensive';    
+instead, I chose the 'Shared servers' tab...which is less expensive...£5.00 per month.    
 
 ### Registering to use the Linode Service...  
 
@@ -54,11 +60,11 @@ Next, you can sign in to the online web browser based console, type...
 
 >> root@xx.xx.xx.xx    
 >> password:    
->> root@~:  
+>> root@hostname~:  
 
 ...and, that's it, once you can witness seeing the Linux prompt...  
 
->> root@~:  
+>> root@hostname~:  
 
 ...this means, you are now running your very own web server 'live'...;    
 -(though, it might take a minute or two getting it to fully provision/boot up...)-;    
@@ -73,7 +79,7 @@ type:
 
 The next thing you may want to do...which is entirely 'optional'...is change the hostname which says:   
 
->>root@~:  
+>>root@hostname~:  
 
 ...to become a name you prefer...type in...  
 
@@ -132,6 +138,19 @@ followed by password:
 ...if you typed your password, correctly; then, you are let in.  
 
 >>root@localhost~:
+
+### Running the server using FTP software/FileZilla...
+
+I decided to try out connecting to the remote web server using FileZilla FTP software...
+
+>>host: xx-xx-xx-xx  
+>>name: root  
+>>password:   
+>>port: 22  
+
+...and, much to my surprise it actually worked.   
+Horray, I should now easily be able to both transfer: upload/download files! ;-)  
+-(Though, I still haven't tried uploading/downloading anything, yet...; but, soon, shall try doing that.)-      
 
 ## Some basic LINUX commands...
 
