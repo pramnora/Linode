@@ -79,11 +79,11 @@ There are certain things you need to do, first; when you set up and run a 'new' 
 The first thing you should do is make sure your server is fully up to date with the very latest packages/security fixes/-etc.    
 type:   
 
->> root@~: apt update && apt upgrade  
+>> root@hostname~: apt update && apt upgrade  
 
 ...then, wait for the updating/upgrading process to be done.    
 
-#### Select your own hostname... 
+#### Select your own hostname(optiona)... 
 
 The next thing you may, optionally, wish to do is change the hostname prompt which says:   
 
@@ -91,7 +91,7 @@ The next thing you may, optionally, wish to do is change the hostname prompt whi
 
 ...to become a 'new' hostname that you might prefer...type in...  
 
->>root@~: hostnamectl set-hostname yourPreferredHostName  
+>>root@hostname~: hostnamectl set-hostname yourPreferredHostName  
 
 -(now you will need to logout out...by typing: exit...then, log back in, again...to see the prompt change to become...)    
 
@@ -99,14 +99,14 @@ The next thing you may, optionally, wish to do is change the hostname prompt whi
 
 #### Add newuser to go sign in with...
 
-It is not recommended that you sign in to your sever using root...which has the privilige to can do absolutely anything...;    
-but, instead, you should go and create a new user account to go sign in with, instead...; that has 'limited' priveliges.
+It is not recommended that you sign in to your server using your 'root' a/c.; which has the privilige to do absolutely anything...;    
+but, instead, you should go and create a 'new' user account to go sign in with, instead...; that has 'limited' privileges.
 
 >>root@hostname~: adduser guest
 
 ...next, you will be asked to supply a 'password' for the new guest user. After supplying the password...;     
-next, keep on pressing [Enter] key to accept the default settings for: add name/number/-etc.    
-until you return back to the usual prompt; then, type: exit...
+next, keep on pressing [Enter] key to accept the default settings for such things as: add name/number/-etc.     
+until you return back to the usual prompt; then, type: exit...  
 
 >>root@hostname~: exit
 
@@ -120,9 +120,9 @@ only this time you will sign in as...
 
 >>guest@hostname~: 
 
-...meaning you are not signed into the system as, guest.
+...meaning you are now signed into the system as, guest.
 
-**NOTE**: Guest, does not have access to the root system user files/nor are they allowed to add 'new users' themselves.
+-(**NOTE**: Guest, does not have access to the root system user files/nor are they allowed to add 'new users' themselves.)-  
 
 ### How to 'stop' the server running...; meaning, put it on pause...(ready to run, again/with all your data/configuration still intact)...  
 
