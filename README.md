@@ -197,24 +197,24 @@ Show what is the current working folder directory path/(print working directory)
 >>root~: pwd  
 
 Create a new file...  
->>root~: touch fileName.fileNameExtension  
+>>root@localhost~: touch fileName.fileNameExtension  
 
 **NOTE**: Linux files don't need to have any 3 letter file name extension at all/(unlike Windows)     
 
 Make a folder...  
->>root~: mkdir dirName  
+>>root@localhost~: mkdir dirName  
   
 Move to a different folder...
->>root~: cd dirName  
+>>root@localhost~: cd dirName  
 
 Move backwards...  
->>root~: cd ..  
+>>root@localhost~: cd ..  
 
 Show the current calender date...
->>root~: cal  
+>>root@localhost~: cal  
 
 Open a text editor...
->>root~: nano fileName.fileNameExtension  
+>>root@localhost~: nano fileName.fileNameExtension  
 
 **NOTE**: Either reading a good Linux tutorial book...  
 -(especially, concerning what is the particular Linux distribution you wish to use)-;    
@@ -229,10 +229,10 @@ Here are a few of the difficulties I'm having...
   therefore, it is really very 'limited' the type of things I can do...?!        
   
 - Instead, of having to communicate with the Linux server through using a CLI/Command Line Interface...meaning, all 'text' based commands;      
-  I would have much preferred using a GUI/Graphical User Interface, instead; just not sure how to set this up...?   
+  I would have much preferred using a GUI/Graphical User Interface, instead; just not sure how to set this up...?    
 
-  I saw it mentioned somewhere that if you use, instead of:   
-  ssh root@xx...    
+- I saw it mentioned somewhere that if you use, instead of:   
+  ssh root@xx.xx.xx.xx      
   ...add a -X...         
   ssh -X root@xx.xx.xx.xx  
   ...then, the graphical interface might work;   
