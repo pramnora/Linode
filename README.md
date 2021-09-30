@@ -70,6 +70,12 @@ Next, you can sign in to the online web browser based console, type...
 -(though, it might take a minute or two getting it to fully provision/boot up...)-;    
 and, can now run all sorts of Linux based commands such as: cal/ls/pwd/-etc.  
 
+### Setting up the Linux system to work...
+
+There are certain things you need to do, first; when you set up and run a 'new' Ubuntu Linux server... 
+
+#### Make sure the system is fully updated... 
+
 The first thing you should do is make sure your server is fully up to date with the very latest packages/security fixes/-etc.    
 type:   
 
@@ -77,17 +83,46 @@ type:
 
 ...then, wait for the updating/upgrading process to be done.    
 
-The next thing you may want to do...which is entirely 'optional'...is change the hostname which says:   
+#### Select your own hostname... 
+
+The next thing you may, optionally, wish to do is change the hostname prompt which says:   
 
 >>root@hostname~:  
 
-...to become a name you prefer...type in...  
+...to become a 'new' hostname that you might prefer...type in...  
 
 >>root@~: hostnamectl set-hostname yourPreferredHostName  
 
 -(now you will need to logout out...by typing: exit...then, log back in, again...to see the prompt change to become...)    
 
 >>yourPreferredHostName@~:    
+
+#### Add newuser to go sign in with...
+
+It is not recommended that you sign in to your sever using root...which has the privilige to can do absolutely anything...;    
+but, instead, you should go and create a new user account to go sign in with, instead...; that has 'limited' priveliges.
+
+>>root@hostname~: adduser guest
+
+...next, you will be asked to supply a 'password' for the new guest user. After supplying the password...;     
+next, keep on pressing [Enter] key to accept the default settings for: add name/number/-etc.    
+until you return back to the usual prompt; then, type: exit...
+
+>>root@hostname~: exit
+
+...this will sign your root /ac. out; and, thus, force you to sign back into the Linux system, again...;  
+only this time you will sign in as...  
+
+>>ssh guest@xx.xx.xx.xx
+>>password:  
+
+...then, when you enter back into the system...the system prompt should change to say...
+
+>>guest@hostname~: 
+
+...meaning you are not signed into the system as, guest.
+
+**NOTE**: Guest, does not have access to the root system user files/nor are they allowed to add 'new users' themselves.
 
 ### How to 'stop' the server running...; meaning, put it on pause...(ready to run, again/with all your data/configuration still intact)...  
 
