@@ -272,6 +272,13 @@ Here are a few of the difficulties I'm having...
  - Normally, the server when you hit [Power off] would shut down in under 1 minute long...;    
    however, one time I tried shutting it down...; and, it took over 4 minutes long to to shut down...;     
    which made me wonder if it was ever going to shut down at all...?! But, it did, eventually.   
+   
+ - When signed into the very first page of Linode system; select 'Account' from the main menu on the left...;  
+   this will allows you to be able to...   
+   ...view how much money you owe  
+   ...make pre-payments towards your account, immediately  
+     
+   
 
 
 
