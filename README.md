@@ -9,7 +9,7 @@ Today, 29 September 2021, I had a most truly remarkable experience; namely, I vi
 - https://www.linode.com  
 ...and, after reading up about the charges for creating/building/running your own online server...;    
 discovered the price is, in fact, fairly 'cheap'; namely,...    
-- £0.02p per hour  
+- £0.01p per hour  
 - £5.00 monthly  
 
 **NOTE(1)**: Remember to select the right tab...which says: 'Shared hosting'/together with a computer equipped with: 1GB RAM/4GB memory. (least expensive package)   
