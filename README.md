@@ -1,5 +1,5 @@
 # Linode
-Linode, create/build/run your own online servers...for a price...
+Linode, create/build/run your own online servers...for a price.
 
 ## CREATING/BUILDING/RUNNING ONLINE SERVERS AT LINODE.COM  
 
@@ -9,17 +9,13 @@ Today, 29 September 2021, I had a most truly remarkable experience; namely, I vi
 - https://www.linode.com  
 ...and, after reading up about the charges for creating/building/running your own online server...;    
 discovered the price is, in fact, fairly 'cheap'; namely,...    
-- £0.04p per hour  
-- £30.00 monthly  
+- £0.02p per hour  
+- £5.00 monthly  
 
--(**NOTE:** Unless you take the server down, completely...; then, they will charge you whether the server is actually up and running/or, not...?!)-    
+**NOTE(1)**: Remember to select the right tab...which says: 'Shared hosting'/together with a computer equipped with: 1GB RAM/4GB memory. (least expensive package)   
+
+**NOTE(2)**: Unless you do remember to take the server down, completely...; then, they will charge you whether the server is actually up and running/or, not...?!    
  
-**LATEST UPDATE Concerning price...**  
-
-*30 September 2021 03:44 PM GMT*   
-I had selected the wrong tab: Dedicated servers...which are more 'expensive';    
-instead, I chose the 'Shared servers' tab...which is less expensive...£5.00 per month.    
-
 ### Registering to use the Linode Service...  
 
 Basically, all one has to do to register with the Linode service is...give them your...    
@@ -282,7 +278,7 @@ Here are a few of the difficulties I'm having...
  ## CONCLUSION
  
  I do not have any regrets at all about going and signing up with the 'cloud provider', Linode.      
- Their online service is really pretty straight forwards/and, therefore, easy to use...;    
+ Their online service is really pretty straight forwards/and, therefore, simple and easy to use...;    
  -(some of these other 'cloud providers': Amazon AWS/Azure/Google/-etc.;     
    their public offerings seem to be really 'complex'...in direct comparison?!)-   
  also, the Linode site itself, offers a lot of online documention in the form of both...  
@@ -316,6 +312,7 @@ if not entirely all for FREE.
 This is because they are no longer 'forced' to...   
 - buy programming languages/manuals  (many of which can be downloaded for FREE)  
 - buy computer boxes.../containing different operating systems inside   
+
 ...which makes the learning process both a lot less costly/and, also, makes learning 'fast'.         
 
 ## LINKS...
