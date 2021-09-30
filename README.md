@@ -149,8 +149,9 @@ I decided to try out connecting to the remote web server using FileZilla FTP sof
 >>port: 22  
 
 ...and, much to my surprise it actually worked.   
-Horray, I should now easily be able to both transfer: upload/download files! ;-)  
--(Though, I still haven't tried uploading/downloading anything, yet...; but, soon, shall try doing that.)-      
+Horray, I can now very easily both create/transfer: 'upload/download' files...in between Windows 10 Pro/Linux Ubuntu 20.04 LTS! ;-)  
+
+-(**NOTE**: There may be some diffence between the two file systems...; for example Linux doesn't need to use any dot + fileNameExtension.)-   
 
 ## Some basic LINUX commands...
 
