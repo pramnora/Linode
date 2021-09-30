@@ -273,12 +273,37 @@ Here are a few of the difficulties I'm having...
    however, one time I tried shutting it down...; and, it took over 4 minutes long to to shut down...;     
    which made me wonder if it was ever going to shut down at all...?! But, it did, eventually.   
    
- - When signed into the very first page of Linode system; select 'Account' from the main menu on the left...;  
-   this will allows you to be able to...   
+ - When signed into the very first page of Linode system;   
+   select 'Account' from the main menu on the left...;    
+   which will allow you to be able to...   
    ...view how much money you owe  
    ...make pre-payments towards your account, immediately  
-     
    
+ ## CONCLUSION
+ 
+ I do not have any regrets at all about going and signing up with, Linode.    
+ Their online service is pretty straight forwards/and, therefore, easy to use...;    
+ also, comes with a lot of online documention in the form of both...  
+
+ - help files  
+ - YouTube channel help/(videos)  
+ 
+ ...in addition to which the service if properly used can also be, relatively, 'inexpensive';    
+ costing only £5.00 a month...is not so bad to have public server, constantly, up and running;  
+ into which you can...
+ 
+  - practice using the Linux system commands...(and, for many different varieties of Linux: Debian/Ubuntu/-etc.)     
+  - FTP  
+  - display files  
+  - store files  
+  - added web pages  
+  - etc.  
+
+## LINKS...
+
+YouTube videos...
+
+
 
 
 
