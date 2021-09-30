@@ -283,7 +283,8 @@ Here are a few of the difficulties I'm having...
  
  I do not have any regrets at all about going and signing up with the 'cloud provider', Linode.      
  Their online service is really pretty straight forwards/and, therefore, easy to use...;    
- -(some of these other 'cloud providers': Amazon AWS/Azure/Google/-etc. there offerings seem to be really 'complex'...in direct comparison?!)-  
+ -(some of these other 'cloud providers': Amazon AWS/Azure/Google/-etc.;     
+   their public offerings seem to be really 'complex'...in direct comparison?!)-   
  also, the Linode site itself, offers a lot of online documention in the form of both...  
 
  - help files  
@@ -299,6 +300,13 @@ Here are a few of the difficulties I'm having...
   - store files  
   - added web pages  
   - etc.  
+
+**NOTE**: If all you wished to do...was to simply...    
+          start a server/(and, keep it running for just a few minutes/hours...)  
+          test it  
+          stop it, running  
+          then, delete it  
+          ...the price you would pay to do that is just merely pennies/NOT pounds.    
 
 ## LINKS...
 
