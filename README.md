@@ -295,10 +295,12 @@ Here are a few of the difficulties I'm having...
  into which you can...
  
   - practice using the Linux system commands...(and, for many different varieties of Linux: Debian/Ubuntu/-etc.)     
-  - FTP/File Transfer Protocol    
-  - display files  
+  - run Linux based program files: C/BASH shell scripts  
+  - experiment with Linux editors: Nano/Vim    
+  - FTP/File Transfer Protocol (exchanging files between Windows & Linux)      
+  - display files   
   - store files  
-  - added web pages  
+  - add web pages  
   - etc.  
 
 **NOTE**: If all you wished to do...was to simply...    
