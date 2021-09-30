@@ -281,9 +281,10 @@ Here are a few of the difficulties I'm having...
    
  ## CONCLUSION
  
- I do not have any regrets at all about going and signing up with, Linode.    
- Their online service is pretty straight forwards/and, therefore, easy to use...;    
- also, comes with a lot of online documention in the form of both...  
+ I do not have any regrets at all about going and signing up with the 'cloud provider', Linode.      
+ Their online service is really pretty straight forwards/and, therefore, easy to use...;    
+ -(some of these other 'cloud providers': Amazon AWS/Azure/Google/-etc. there offerings seem to be really 'complex'...in direct comparison?!)-  
+ also, the Linode site itself, offers a lot of online documention in the form of both...  
 
  - help files  
  - YouTube channel help/(videos)  
@@ -293,7 +294,7 @@ Here are a few of the difficulties I'm having...
  into which you can...
  
   - practice using the Linux system commands...(and, for many different varieties of Linux: Debian/Ubuntu/-etc.)     
-  - FTP  
+  - FTP/File Transfer Protocol    
   - display files  
   - store files  
   - added web pages  
