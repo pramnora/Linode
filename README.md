@@ -54,7 +54,7 @@ Also, click where it says: [Launch LISH console]...;
 
 Next, you can sign in to the online web browser based console, type...  
 
->> root@xx.xx.xx.xx    
+>> root    
 >> password:    
 >> root@hostname~:  
 
@@ -65,6 +65,12 @@ Next, you can sign in to the online web browser based console, type...
 ...this means, you are now running your very own web server 'live'...;    
 -(though, it might take a minute or two getting it to fully provision/boot up...)-;    
 and, can now run all sorts of Linux based commands such as: cal/ls/pwd/-etc.  
+
+**NOTE**: Using the Linode web browser console: LISH/GLISH...;  at first, I typed in...    
+>>root@xx.xx.xx.xx  
+...which worked...; then, later on, stopped working?! Instead, I had to type in, simply...  
+>>root  
+...in order to get things working, again.  
 
 ### Setting up the Linux system to work...
 
