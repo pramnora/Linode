@@ -370,17 +370,17 @@ Open Nano...; and, give it a filename to save of: script01...
 ...next, type in the following lines of BASH related code...  
 
 >>#!/bin/bash  
->># Lines prefixed with the hash symbol: (#) means...This is a comment    
+>># (#) Lines prefixed with the hash symbol: (#) means...This is a comment    
 >>echo This is my first BASH script.  
 
 Use [CTRL] + [X] to exit from Nano editor; [Y] to save; [Enter] to confirm the file name...  
 
->>root@localhost~:   
->>chmod 744 script01  
->>ls -l  
->>-rwxr--r--  
->>bash script 01  
->>This is my first script  
+>>root@localhost~:                          (this is the normal Linux root prompt)  
+>>chmod 744 script01                        (this line sets the file 'rwx-read/write/execute' permissions: 7=rwx/4=r, only/4=r, only)  
+>>ls -l                                     (this line displays files with their permissions)   
+>>-rwxr--r--                                (this line shows the file permissions)     
+>>bash script01                             (this line executes the script file code)    
+>>This is my first script                   (this the the script file output)    
 
 ## CURRENT PROBLEMS...
 
@@ -499,9 +499,4 @@ S3 Object Storage on Linode | Getting Started
 
 Deploy A Static Website Using The Linode CLI | Object Storage Tutorial  
 - https://www.youtube.com/watch?v=ZfGyeJ8jYxI  
-
-
-
-
-
 
