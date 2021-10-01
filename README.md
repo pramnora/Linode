@@ -346,6 +346,8 @@ This is because they are no longer 'forced' to...
 
 ## LINKS...
 
+### Web site hosting...
+
 YouTube videos...
 
 WordPress on Linode Hosting Tutorial Video  
@@ -353,6 +355,11 @@ WordPress on Linode Hosting Tutorial Video
 
 DIY Linux Webserver from Start to Finish Hosted by Linode  
 - https://www.youtube.com/watch?v=H8K-Rg_7Tbo 
+
+### Object storage...
+
+S3 Object Storage on Linode | Getting Started  
+- https://www.youtube.com/watch?v=q88OKsr5l6c  
 
 Deploy A Static Website Using The Linode CLI | Object Storage Tutorial  
 - https://www.youtube.com/watch?v=ZfGyeJ8jYxI  
