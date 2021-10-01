@@ -1,7 +1,7 @@
 # Linode
 Linode, create/build/run your own online servers...for a price.
 
-##TOC/(T)able (O)f (C)ontents:-  
+# TOC/(T)able (O)f (C)ontents:-  
 
 ## CREATING/BUILDING/RUNNING ONLINE SERVERS AT LINODE.COM  
 ### Running Linode Server, Charges...  
