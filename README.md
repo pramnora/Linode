@@ -348,6 +348,16 @@ This is because they are no longer 'forced' to...
 
 YouTube videos...
 
+WordPress on Linode Hosting Tutorial Video  
+- https://www.youtube.com/watch?v=OpifyG32CMs  
+
+DIY Linux Webserver from Start to Finish Hosted by Linode  
+- https://www.youtube.com/watch?v=H8K-Rg_7Tbo 
+
+Deploy A Static Website Using The Linode CLI | Object Storage Tutorial  
+- https://www.youtube.com/watch?v=ZfGyeJ8jYxI  
+
+
 
 
 
