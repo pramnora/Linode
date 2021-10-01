@@ -304,11 +304,11 @@ press the [Enter] key to confirm; and, you will be led straight back to the Linu
 
 >>root@localhost~: cat filename   
 
-This is
-my first
-text file
-created using
-Nano editor
+This is  
+my first  
+text file  
+created using  
+Nano editor  
 
 ## CURRENT PROBLEMS...
 
