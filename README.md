@@ -357,6 +357,9 @@ Getting Started with Linode
 Securing Your Server  
 - https://www.linode.com/docs/guides/securing-your-server/  
 
+connnect to your linode via ssh  
+- https://www.linode.com/docs/guides/getting-started/#connect-to-your-linode-via-ssh  
+
 Website Hosting...  
 - https://www.linode.com/docs/guides/websites/hosting/  
 - https://www.linode.com/community/questions/18479/how-do-i-host-my-website-with-linode  
