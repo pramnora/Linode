@@ -255,7 +255,60 @@ in order to return back to the normal prompt...
 **NOTE**: Either reading a good Linux tutorial book...  
 -(especially, concerning what is the particular Linux distribution you wish to use)-;    
 or, watching a few YouTube Linux command tutorials...would most certainly help out an awful lot     
-before you try running any Linux based server.     
+before you try running any Linux based server.
+
+### Using Nano text editor...
+
+Linux, comes with many text editors: Nano/VIM/Vi/-etc.  
+
+By far the simplest text editor for beginner's to use is Nano...;    
+you can load Nano text editor like so...  
+
+>>root@localhost~: nano  
+
+...alternatively, if you wish to load nano text editor/whilst, at the same time, giving the file a name; then, use...  
+
+>>root@ localhost~: nano fileName  
+
+-(**NOTE**: Unlike in Windows...Linux filenames do not need a dot(.) + fileNameExtension...; so, just the filename alone will do;  
+unless you wish to share/(FTP) files between Windows and Linux...; in the which case, I would include both the .fileNameExtension.)-  
+
+Next, write a few lines of text into Nano text editor...  
+
+>>This is   
+>>my first   
+>>text file  
+>>created using   
+>>Nano editor.  
+
+...you can use the arrow keys: 'up/down/left/right'...to navigate your way around the file...    
+...and, also, select where you wish to either...    
+add characters...by typing in some more text.../    
+or, delete characters...by using the [Backspace] key...    
+...use [CTRL] + [X] to exit from Nano file editor...    
+it will ask you: save modified buffer...type: Y...  
+-(if you wish to save the changes to your modified file)-;  
+next, it will ask you: File name to write: fileName  
+-(if you did already set up a filename/but, if not...then, you can type in your file name here)-    
+press the [Enter] key to confirm; and, you will be led straight back to the Linux prompt.   
+
+>>root@localhost~:  
+
+...if you wish to see the file changes you just made...then, just use: 'ls'...  
+-(to check the file exists inside of the current folder directory...)-  
+
+>>root@localhost~: ls  
+>>filename  
+
+...then, use 'cat'...which will display the file text on screen...  
+
+>>root@localhost~: cat filename   
+
+This is
+my first
+text file
+created using
+Nano editor
 
 ## CURRENT PROBLEMS...
 
