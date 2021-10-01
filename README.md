@@ -66,11 +66,21 @@ Next, you can sign in to the online web browser based console, type...
 -(though, it might take a minute or two getting it to fully provision/boot up...)-;    
 and, can now run all sorts of Linux based commands such as: cal/ls/pwd/-etc.  
 
-**NOTE**: Using the Linode web browser console: LISH/GLISH...;  at first, I typed in...    
+**NOTE(1)**: Using the Linode web browser console: LISH/GLISH...;  at first, I typed in...   
+
 >>root@xx.xx.xx.xx  
+
 ...which worked...; then, later on, stopped working?! Instead, I had to type in, simply...  
+
 >>root  
-...in order to get things working, again.  
+
+...in order to get things back up and working, again.  
+
+**NOTE(2)**: Using any other SSH method -(Putty/MS DOS/Powershell/FileZilla)- I found that signing in as...  
+
+>>root@xx.xx.xx.xx  
+
+...worked just fine.  
 
 ### Setting up the Linux system to work...
 
