@@ -348,11 +348,18 @@ This is because they are no longer 'forced' to...
 
 ### Linode Guides...
 
+Website guides  
+- https://www.linode.com/docs/guides/websites/  
+
 Getting Started with Linode  
 - https://www.linode.com/docs/guides/getting-started/  
 
 Securing Your Server  
 - https://www.linode.com/docs/guides/securing-your-server/  
+
+Website Hosting...  
+- https://www.linode.com/docs/guides/websites/hosting/  
+- https://www.linode.com/community/questions/18479/how-do-i-host-my-website-with-linode  
 
 ### Web site hosting...
 
