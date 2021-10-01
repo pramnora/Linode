@@ -331,17 +331,7 @@ Here are a few of the difficulties I'm having...
   ...then, calling up...    
   firefox  
   ...it didn't work?!  
-  
-- At first, I was able to get in using [Launch LISH Console]...;      
-  but, then, each time I tried doing the same thing, later on...;   
-  I'd gone and created 2 brand new sever instances...  
-  it didn't work...?!      
-  The error message kept on saying...  
-  Login incorrect  
-  ...after trying, again and again, repeatedly; I decided to quit using that method;  
-  (even, though, I was able to get in through using other methods: MS DOS/Powershell/Putty;  
-   so, I'm not exactly sure what I did wrong...?!)  
- 
+   
 - As well as, [LISH]/I noticed something beside it called: GLISH...;    
   I don't know if GLISH is meant to be the Graphical UI, possibly...;    
   anyway, both LISH/GLISH wouldn't let me in, anymore...;      
