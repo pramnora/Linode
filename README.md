@@ -364,6 +364,20 @@ The first dash indicates if the file is either...
 >> d (a folder)  
 >> - (a file)  
 
+The next set of 3 x 3 dashes: (---) represents...
+
+1> owner  
+2> group  
+3> other  
+
+Each set of 3 x 3 dashes may show as being a successive letter or - ...  
+
+1> r = read  
+2> w = write    
+3> x = execute  
+4> nil permission  
+
+
 
 
 ## Creating/running scripts...
