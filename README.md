@@ -364,7 +364,7 @@ The first dash indicates if the file is either...
 >> d (a folder)  
 >> (-) (a file)  
 
-The next set of 3 x 3 dashes: (---) represents...
+Each next set of 3 x 3 dashes: (---) represents, successively...  
 
 1> owner  
 2> group  
@@ -372,13 +372,39 @@ The next set of 3 x 3 dashes: (---) represents...
 
 Each set of 3 x 3 dashes may show as being a successive letter: (rwx)/or: (-)...    
 
-1> r = read  
-2> w = write    
-3> x = execute  
+1> r = read permission   
+2> w = write permission     
+3> x = execute permission        
 4> (-) = nil permission  
 
+In order to view files with their permissions set...; use...   
 
+>>root@localhost~: ls -l    
 
+...which, then, shows not just the filenames, alone, as with the command: (ls)...;   
+but, also, displays what file permissions have been given to each file.        
+
+In order to set file permissions...use the command: (chmod)...
+
+> chmod 1 filename = execute      
+> chmod 2 filename = read    
+> chmod 3 filename = execute/read  
+> chmod 4 filename = write    
+> chmod 5 filename = execute/write  
+> chmod 6 filename = read/write  
+> chmod 7 filename = read/write/execute     
+> chmod 0 filename = nil permission being given     
+
+...so, the command...    
+
+> chmod 777 filename  
+
+...would mean...owner:read/write/execute group:read/write/execute other:read/write/execute    
+-(in other words everybody can execute that particular file)-  
+
+> chmod 000 filename...    
+
+...would mean...no permissions being granted to anyone.  
 
 ## Creating/running scripts...
 
@@ -408,7 +434,7 @@ Use [CTRL] + [X] to exit from Nano editor; [Y] to save; [Enter] to confirm the f
 >>ls -l                               <----      (this line displays files with their permissions)   
 >>-rwxr--r--                          <----      (this line shows the file permissions)     
 >>bash script01                       <----      (this line executes the script file code)    
->>This is my first script             <----      (this the the script file output)    
+>>This is my first script             <----      (this the script file output)    
 
 ## CURRENT PROBLEMS...
 
