@@ -470,10 +470,10 @@ after which you type in Python code which will then be evaluated.)-
 
 To run 2.7.18 python code...   
 
->>(>>>)print 1+1  
->>(>>>)2
->>(>>>)exit()
->>root@test-server:~# 
+>>(>>>)print 1+1    
+>>(>>>)2    
+>>(>>>)exit()  
+>>root@test-server:~#   
 
 **NOTE**: Use 'exit()' to exit out of the Python coding environment.  
 
