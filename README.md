@@ -27,6 +27,7 @@ Linode, create/build/run your own online servers...for a price.
 ###  Creating/running your first BASH shell script...
 ## Installing programs...
 ### Installing Python...
+### To create and run a python program file: [.py]...   
 ## CURRENT PROBLEMS...
 ## CONCLUSION
 ## LINKS...
@@ -458,17 +459,39 @@ First, I did a check to see if Python was already installed...
 
 ...then, to check which python version I had just installed...  
 
->>root@test-server:~# python  
+>>root@localhost:~: python  
 >>Python 2.7.18 (default, Mar  8 2021, 13:02:45)  
 >>[GCC 9.3.0] on linux2  
 >>Type "help", "copyright", "credits" or "license" for more information.  
 >>(>>>)  
 
+-(**NOTE**: The 3 right pointing chevrons:(>>>) are the Python prompt...;     
+after which you type in Python code which will then be evaluated.)-   
+
 To run 2.7.18 python code...   
 
->>>print 1+1  
+>>(>>>)print 1+1  
+>>(>>>)2
+>>(>>>)exit()
+>>root@test-server:~# 
 
--etc.
+**NOTE**: Use 'exit()' to exit out of the Python coding environment.  
+
+### To create and run a python program file: [.py]...   
+
+>>nano python01.py  
+>># This is my first python script...  
+>>print "Hello, world!"  
+
+...type: [CTRL]+[X] to quit Nano editor/type: [CTRL]+[Y] to save/type: [Enter] to keep what is the current file name.  
+
+>>chmod 744 python01.py  
+>>ls -l  
+>>-rwxr--r-- python01.py   
+>>python python01.py  
+>>Hello, world!   
+
+
 
 ## CURRENT PROBLEMS...
 
