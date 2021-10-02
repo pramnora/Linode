@@ -362,7 +362,7 @@ Each file on linux has set permissions...represented by a series of 10 dashes: (
 The first dash indicates if the file is either...
 
 >> d (a folder)  
->> - (a file)  
+>> (-) (a file)  
 
 The next set of 3 x 3 dashes: (---) represents...
 
@@ -370,12 +370,12 @@ The next set of 3 x 3 dashes: (---) represents...
 2> group  
 3> other  
 
-Each set of 3 x 3 dashes may show as being a successive letter or - ...  
+Each set of 3 x 3 dashes may show as being a successive letter: (rwx)/or: (-)...    
 
 1> r = read  
 2> w = write    
 3> x = execute  
-4> nil permission  
+4> (-) = nil permission  
 
 
 
