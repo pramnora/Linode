@@ -473,14 +473,14 @@ To run 2.7.18 python code...
 >>(>>>)print 1+1    
 >>(>>>)2    
 >>(>>>)exit()  
->>root@test-server:~#   
+>>root@test-server~:     
 
 **NOTE**: Use 'exit()' to exit out of the Python coding environment.  
 
 ### To create and run a python program file: [.py]...   
 
 >>nano python01.py  
->># This is my first python script...  
+>>(#) This is my first python script...   
 >>print "Hello, world!"  
 
 ...type: [CTRL]+[X] to quit Nano editor/type: [CTRL]+[Y] to save/type: [Enter] to keep what is the current file name.  
