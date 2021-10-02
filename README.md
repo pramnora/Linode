@@ -365,7 +365,7 @@ Linux, allows users to create/run scripts...
 
 Open Nano...; and, give it a filename to save of: script01...  
 
->>root@localhost~: script01   
+>>root@localhost~: nano script01   
 
 ...next, type in the following lines of BASH related code...  
 
@@ -376,7 +376,7 @@ Open Nano...; and, give it a filename to save of: script01...
 Use [CTRL] + [X] to exit from Nano editor; [Y] to save; [Enter] to confirm the file name...  
 
 >>root@localhost~:                    <----      (this is the normal Linux root prompt)  
->>chmod 744 script01                  <----      (this line sets the file 'rwx-read/write/execute' permissions: ownder: 7=rwx/group: 4=r, only/other: 4=r, only)  
+>>chmod 744 script01                  <----      (this line sets the file 'rwx-read/write/execute' permissions: owner: 7=rwx/group: 4=r, only/other: 4=r, only)  
 >>ls -l                               <----      (this line displays files with their permissions)   
 >>-rwxr--r--                          <----      (this line shows the file permissions)     
 >>bash script01                       <----      (this line executes the script file code)    
