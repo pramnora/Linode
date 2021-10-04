@@ -527,8 +527,17 @@ Here are a few of the difficulties I'm having...
    which will allow you to be able to...   
    ...view how much money you owe  
    ...make pre-payments towards your account, immediately  
+
+ - I still haven't written any C programs to run yet.  
+   I believe that straight out of the box...without needing to do any further setting up...   
+   you can run...  
    
- ## CONCLUSION
+   - BASH scripts  
+   - C programs  
+   
+   ...I believe, I did it using my Raspberry Pi's Linux; but, forgot how...?!  
+
+ ## CONCLUSION  
  
  I do not have any regrets at all about going and signing up with the 'cloud provider', Linode.      
  Their online service is really pretty straight forwards/and, therefore, simple and easy to use...;    
@@ -566,7 +575,7 @@ This is because they are no longer 'forced' to...
 - buy programming languages/manuals  (many of which can be downloaded for FREE)  
 - buy computer boxes.../containing different operating systems inside   
 
-...which makes the learning process both a lot less costly/and, also, makes learning 'fast'.         
+...which makes the learning process both a lot less costly/and, also, makes learning 'fast'.    
 
 ## LINKS...
 
