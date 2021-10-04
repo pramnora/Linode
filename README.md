@@ -536,6 +536,18 @@ Here are a few of the difficulties I'm having...
    - C programs  
    
    ...I believe, I did it using my Raspberry Pi's Linux; but, forgot how...?!  
+   
+ - By far the biggest problem I have with running a Linode server is the steadily accruing charges...;  
+   and, especially, if you leave the server up...without deleting it; because whether it is powered on/or, off...  
+   you will still be accumlating charges.  
+   
+   I believe that the 'cheapest' way to test out Linux system...is to use something like VMWare...;  
+   which emulates an operating system...; and, then, you can test it on your Windows based computer for FREE.  
+   Otherwise, if you choose to do things this way, instead...; it could all cost you a pretty penny, I'm afraid!  
+   The only way to keep the cost of running the server down to pennies...as opposed to pounds...;  
+   is to delete the server straight after using it; otherwise, you will still be charged for a server you are NOT using...  
+   even while you sleep...!  
+
 
  ## CONCLUSION  
  
