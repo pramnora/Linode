@@ -553,16 +553,21 @@ Press [CTRL]+[X], [Y] to confirm, [Enter] to re-write.
 ### - View your test web page inside of any web browser
 
 Now, just like before, go over to your web browser software...; and, press the [F5] key to do a page refresh...;  
-and, you should see the test [index.html] web page...that you've just went and created.  
+and, you should see the test [index.html] web page...that you just went and created.  
 
 ### - Additional notes 
 
 **NOTE(S)**:-     
-1> This web page is served up using 'http' protocol...; so, it is not a secure 'encrypted' connection such as is: 'https://'    
-2> The web server ports need to be properly secured...; otherwise, your web server could be open to all sorts of internet attacks.  
+The above 'quick 'set up route...is, most definitely, **NOT** the safest way to do it...; instead, it's totally *unsafe*...?!         
+-(I merely showed it to you...in this really 'quick' manner...just to prove how fast these things can be done;       
+  with the sole intention of putting up a web page...and, then, serving it over the internet.   
+  but, if you want to make sure your web server/ports are secure...; then, you will need to follow some further steps.)    
 
-In order to read more about how to set up/run Apache 'safely'...go check out the following link...  
-https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-20-04  
+1> This web page is served up using 'http' protocol...; so, it is not a secure 'encrypted' connection such as is: 'https://'    
+2> The web server ports need to be properly secured...; otherwise, your web server could be open to all sorts of internet attacks.    
+
+In order to read more about how to set up/run Apache 'safely'...go check out the following link...   
+https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-20-04    
 
 ## CURRENT PROBLEMS...
 
