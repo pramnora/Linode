@@ -28,6 +28,10 @@ Linode, create/build/run your own online servers...for a price.
 ## Installing programs...
 ### - Installing Python...
 ### - To create and run a python program file: [.py]...   
+## Create your own Web Server
+### Setting up
+### Creating a test web page
+### View the test web page inside of any web browser
 ## CURRENT PROBLEMS...
 ## CONCLUSION
 ## LINKS...
@@ -490,6 +494,59 @@ To run 2.7.18 python code...
 >>-rwxr--r-- python01.py   
 >>python python01.py  
 >>Hello, world!   
+
+## Create your own Web Server  
+
+Believe it or not...; but, setting up and running your own Apache web server is really quite simple and easy to do...    
+
+First, download the Apache software...  
+
+>>apt install apache2  
+
+Next, check that the software is properly installed...   
+
+>>systemctl status apache2  
+
+Now, type in the following command to discover what is your IP address...  
+
+>>hostname -I  
+>>xx.xx.xx.xx   (-etc.)   
+
+Move over to your normal web browser software...; and, type in the IP address just as you see it above...in dotted quad format...;    
+and, you should see an Apache Web Server 'test page'...waiting to be replaced.  
+
+Next, move to...  
+
+>>cd var/www/html  
+>>ls   
+
+...and, there you should see a web page called: [index.html];    
+this is the standard Apache Web Server page that we wish to replace.    
+Replace this file by either deleting it/or else, by simply renaming it...    
+
+>>mv index.html index2.bak    
+
+Open up nano text editor...; and, write a replacement web page...    
+
+>>nano index.html   
+>>Just a test...  
+
+Press [CTRL]+[X], [Y] to confirm, [Enter] to re-write.  
+Now, just like before, go over to your web browser software...; and, press the [F5] key to do a page refresh...;  
+and, you should see the test [index.html] web page...that you've just went and created.  
+
+**NOTE(S)**:-     
+1> This web page is served up using 'http' protocol...; so, it is not a secure 'encrypted' connection such as is: 'https://'    
+2> The web server ports need to be properly secured...; otherwise, your web server could be open to all sorts of internet attacks.  
+
+In order to read more about how to set up/run Apache 'safely'...go check out the following link...  
+https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-20-04  
+
+### Setting up
+
+### Creating a test web page
+
+### View the test web page inside of any web browser
 
 ## CURRENT PROBLEMS...
 
