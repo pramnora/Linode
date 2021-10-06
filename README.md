@@ -567,6 +567,7 @@ Here are a few of the difficulties I'm having...
   - practice using the Linux system commands...(and, for many different varieties of Linux: Debian/Ubuntu/-etc.)     
   - run Linux based program files: C/BASH shell scripts  
   - experiment with Linux editors: Nano/Vim    
+  - Run your own Web Server: Apache2 (serve up your own web pages viewable over the internet)     
   - FTP/File Transfer Protocol (exchanging files between Windows & Linux)      
   - display files   
   - store files  
