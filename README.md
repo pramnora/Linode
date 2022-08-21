@@ -33,12 +33,6 @@ Linode, create/build/run your own online servers...for a price.
 ## Installing programs...
 ### - Installing Python...
 ### - To create and run a python program file: [.py]...   
-## Create your own Web Server
-### - Setting up
-### - Checking the default test web page inside of your browser
-### - Replacing the default test web page with your own web page, instead
-### - View your test web page inside of any web browser
-### - Additional notes 
 
 ### Installing Redis database...
 ### - Check Redis is fully up and working
@@ -46,7 +40,15 @@ Linode, create/build/run your own online servers...for a price.
 ### - How to quit redis
 ### - Check if you can SET/GET data back
 ### - Multiple SET/GET
-### - Additional notes: Wehre to go in order to learn more...
+### - Additional notes: Where to go in order to learn more...
+
+## Create your own Web Server
+### - Setting up
+### - Checking the default test web page inside of your browser
+### - Replacing the default test web page with your own web page, instead
+### - View your test web page inside of any web browser
+### - Additional notes 
+
 
 
 ## CURRENT PROBLEMS...
