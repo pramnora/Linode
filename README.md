@@ -462,6 +462,14 @@ In order to set file permissions...use the command: (chmod)...
 
 ...would mean...no permissions being granted to anyone.  
 
+
+
+
+
+
+
+
+
 ## Creating/running scripts...
 
 Linux, allows users to create/run scripts...  
@@ -470,6 +478,11 @@ Linux, allows users to create/run scripts...
 - Bash (which is the most common)  
 - Csh  
 - Tcsh 
+
+
+
+
+
 
 ### - Creating/running your first BASH shell script...
 
@@ -569,7 +582,11 @@ apt-get install redis
 redis-server
 
 ### - How to run Redis
+
 redis-cli
+127.0.0.1:6379>ping
+PONG
+127.0.0.1:6379>
 
 ### - How to quit redis
 
