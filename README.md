@@ -40,6 +40,15 @@ Linode, create/build/run your own online servers...for a price.
 ### - View your test web page inside of any web browser
 ### - Additional notes 
 
+### Installing Redis database...
+### - Check Redis is fully up and working
+### - How to run Redis
+### - How to quit redis
+### - Check if you can SET/GET data back
+### - Multiple SET/GET
+### - Additional notes: Wehre to go in order to learn more...
+
+
 ## CURRENT PROBLEMS...
 
 ## CONCLUSION
@@ -267,6 +276,15 @@ Horray, I can now very easily both create/transfer: 'upload/download' files...in
 
 -(**NOTE**: There may be some diffence between the two file systems...; for example Linux doesn't need to use any dot + fileNameExtension.)-   
 
+
+
+
+
+
+
+
+
+
 ## Some basic LINUX commands...
 
 List files/folders...  
@@ -314,6 +332,12 @@ in order to return back to the normal prompt...
 -(especially, concerning what is the particular Linux distribution you wish to use)-;    
 or, watching a few YouTube Linux command tutorials...would most certainly help out an awful lot     
 before you try running any Linux based server.
+
+
+
+
+
+
 
 ## Linux text editor(s)...
 
@@ -369,6 +393,13 @@ my first
 text file  
 created using  
 Nano editor  
+
+
+
+
+
+
+
 
 ## Setting Linux file permissions...
 
@@ -457,9 +488,22 @@ Use [CTRL] + [X] to exit from Nano editor; [Y] to save; [Enter] to confirm the f
 >>bash script01                       <----      (this line executes the script file code)    
 >>This is my first script             <----      (this the script file output)    
 
+
+
+
+
+
+
 ## Installing programs...
 
 It's possible to use Linux to install further programs...  
+
+
+
+
+
+
+
 
 ### - Installing Python...
 
@@ -504,6 +548,57 @@ To run 2.7.18 python code...
 >>-rwxr--r-- python01.py   
 >>python python01.py  
 >>Hello, world!   
+
+
+
+
+
+
+
+
+### Installing Redis database...
+
+apt-get install redis
+
+### - Check Redis is fully up and working
+
+redis-server
+
+### - How to run Redis
+redis-cli
+
+### - How to quit redis
+
+127.0.0.1:6379>quit
+
+### - Check if you can SET/GET data back
+
+redis-cli
+127.0.0.1:6379>SET name Paul
+OK
+127.0.0.1:6379>GET name
+"paul"
+127.0.0.1:6379>
+
+### - Multiple SET/GET
+
+MSET a 1 b 2 c 3
+MGET a b c
+1
+2
+3
+
+### - Additional notes: Wehre to go in order to learn more...
+
+- Go to Redis main web site to learn more
+- Study Redis vidos on You Tube
+
+
+
+
+
+
+
 
 ## Create your own Web Server  
 
