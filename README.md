@@ -592,10 +592,16 @@ MGET a b c
 2
 3
 
-### - Additional notes: Wehre to go in order to learn more...
+### - Additional notes: Where to go in order to learn more...
 
 - Go to Redis main web site to learn more
 - Study Redis vidos on You Tube
+
+
+### - How to clear data
+
+>127.0.0.1:6379>FLUSHALL
+
 
 
 
