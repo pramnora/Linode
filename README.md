@@ -44,7 +44,7 @@ Linode, create/build/run your own online servers...for a price.
 #### - Check Redis is fully up and working
 #### - How to run Redis
 #### - How to quit redis
-#### - Check if you can SET/GET data back
+#### - SET/GET data  
 #### - Multiple SET/GET
 #### - RENAME-ing keys
 #### - How to clear data
@@ -669,7 +669,7 @@ To run 2.7.18 python code...
 
 > 127.0.0.1:6379>quit  
 
-### - Check if you can SET/GET data back
+### - SET/GET data
 
 > redis-cli  
 > 127.0.0.1:6379>SET name Paul  
