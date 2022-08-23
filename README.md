@@ -581,13 +581,14 @@ It's possible to use Linux to install further programs...
 
 First, I did a check to see if Python was already installed...    
 
->>root@localhost~: python    
+>>root@localhost~: which python  
+>>    
 
-...the answer came back, no. So, I decided to install it using...    
+...the answer came back blank...meaning, no Python. So, I decided to install it using...    
 
->>root@localhost~: apt install python    
+>>root@localhost~: apt install python
 
-...then, to check which python version I had just installed...  
+...then, to check which python version I had just installed...; I run the program by typing its name:  
 
 >>root@localhost:~: python  
 >>Python 2.7.18 (default, Mar  8 2021, 13:02:45)  
