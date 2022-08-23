@@ -35,6 +35,9 @@ Linode, create/build/run your own online servers...for a price.
 ### - Installing Python...
 #### - To create and run a python program file: [.py]...   
 
+### - Installing Ruby...
+#### - To create and run a ruby program file: [.rb]...
+
 ### Installing Redis database...
 #### - Check Redis is fully up and working
 #### - How to run Redis
@@ -51,7 +54,7 @@ Linode, create/build/run your own online servers...for a price.
 ### - View your test web page inside of any web browser
 ### - Additional notes 
 
-
+## How to unistall programs...
 
 ## CURRENT PROBLEMS...
 
@@ -572,42 +575,74 @@ To run 2.7.18 python code...
 
 
 
+### - Installing Ruby...
+
+#### - To create and run a ruby program file: [.rb]...
+
+> apt-get install ruby      
+> mkdir programs/ruby    
+> cd programs/ruby      
+> nano hw01.rb    
+> puts "Hello, world!" [CTRL]+[X], [Y], [ENTER]  
+> chmod 744 hw01.rb    
+> ruby hw01.rb  
+> Hello, world!  
+>
+
+
+
+
+
+
+
+
 
 ### Installing Redis database...
 
-apt-get install redis
+> apt-get install redis  
 
 ### - Check Redis is fully up and working
 
-redis-server
+> redis-server  
 
 ### - How to run Redis
 
-redis-cli
-127.0.0.1:6379>ping
-PONG
-127.0.0.1:6379>
+> redis-cli  
+> 127.0.0.1:6379>ping  
+> PONG  
+> 127.0.0.1:6379>  
 
 ### - How to quit redis
 
-127.0.0.1:6379>quit
+> 127.0.0.1:6379>quit  
 
 ### - Check if you can SET/GET data back
 
-redis-cli
-127.0.0.1:6379>SET name Paul
-OK
-127.0.0.1:6379>GET name
-"paul"
-127.0.0.1:6379>
+> redis-cli  
+> 127.0.0.1:6379>SET name Paul  
+> OK  
+> 127.0.0.1:6379>GET name  
+> "paul"  
+> 127.0.0.1:6379>  
 
 ### - Multiple SET/GET
 
-MSET a 1 b 2 c 3
-MGET a b c
-1
-2
-3
+> MSET a 1 b 2 c 3     
+> MGET a b c  
+> 1  
+> 2  
+> 3  
+
+### - Renaming variables...
+
+> set x 1  
+> get x  
+> 1  
+> RENAME x y  
+> get x  
+> nil  
+> get y  
+> 1  
 
 ### - Additional notes: Where to go in order to learn more...
 
@@ -615,7 +650,7 @@ MGET a b c
 - Study Redis vidos on You Tube
 
 
-### - How to clear data
+### - How to clear ALL data
 
 >127.0.0.1:6379>FLUSHALL
 
@@ -690,6 +725,34 @@ The above 'quick 'set up route...is, most definitely, **NOT** the safest way to 
 
 In order to read more about how to set up/run Apache 'safely'...go check out the following link...   
 https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-20-04    
+
+
+
+
+
+
+
+
+
+
+## How to uninstall programs...  
+
+Example command: How to install ruby programming language...  
+
+> apt-get install ruby  
+
+Example command: How to uninstall ruby programming language...  
+
+> apt-get remove ruby  
+
+
+
+
+
+
+
+
+
 
 ## CURRENT PROBLEMS...
 
