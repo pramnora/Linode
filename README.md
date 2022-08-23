@@ -44,6 +44,7 @@ Linode, create/build/run your own online servers...for a price.
 #### - How to quit redis
 #### - Check if you can SET/GET data back
 #### - Multiple SET/GET
+#### - RENAME-ing keys
 #### - How to clear data
 #### - Additional notes: Where to go in order to learn more...
 
@@ -633,7 +634,7 @@ To run 2.7.18 python code...
 > 2  
 > 3  
 
-### - Renaming variables...
+### - RENAME-ing keys...
 
 > set x 1  
 > get x  
@@ -647,7 +648,7 @@ To run 2.7.18 python code...
 ### - Additional notes: Where to go in order to learn more...
 
 - Go to Redis main web site to learn more
-- Study Redis vidos on You Tube
+- Study Redis videos on You Tube
 
 
 ### - How to clear ALL data
