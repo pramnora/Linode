@@ -542,8 +542,10 @@ Open Nano...; and, give it a filename to save of: script01...
 
 ...next, type in the following lines of BASH related code...  
 
->>#!/bin/bash  
->># # Lines prefixed with the hash symbol: (#) means...This is a comment    
+>>#!usr/bin/bash    
+
+NOTE: Lines prefixed with the hash symbol: (#) means...This is a comment    
+
 >>echo This is my first BASH script.  
 
 Use [CTRL] + [X] to exit from Nano editor; [Y] to save; [Enter] to confirm the file name...  
@@ -552,10 +554,13 @@ Use [CTRL] + [X] to exit from Nano editor; [Y] to save; [Enter] to confirm the f
 >>chmod 744 script01                  <----      (this line sets the file 'rwx-read/write/execute' permissions: owner: 7=rwx/group: 4=r, only/other: 4=r, only)  
 >>ls -l                               <----      (this line displays files with their permissions)   
 >>-rwxr--r--                          <----      (this line shows the file permissions)     
->>bash script01                       <----      (this line executes the script file code)    
->>This is my first script             <----      (this the script file output)    
+>>bash script01.sh                    <----      (this line executes the script file code)    
+>>This is my first BASH script        <----      (this the script file output)    
 
+An alternative way to run a bash shell script is...  
 
+>>./script01.sh  
+>>This is my first BASH script  
 
 
 
