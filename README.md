@@ -21,6 +21,7 @@ Linode, create/build/run your own online servers...for a price.
 ## Using SSH to operate the server remotely...
 ### - Running the server remotely...using SSH/Secure Shell...in Windows MS DOS/or, Powershell   
 ### - Running the server using Putty software...
+### - Putty: Saving a sign-in profile
 ### - Running the server using FTP software/FileZilla...
 
 ## Some basic LINUX commands...
@@ -172,7 +173,7 @@ The next thing you may, optionally, wish to do is change the hostname prompt whi
 
 -(now you will need to logout out...by typing: exit...then, log back in, again...to see the prompt change to become...)    
 
->>yourPreferredHostName@~:    
+>>root@yourPreferredHostName@~:    
 
 ### - Add newuser to go sign in with...
 
@@ -199,7 +200,7 @@ only this time you will sign in as...
 
 ...meaning you are now signed into the system as, guest.
 
--(**NOTE**: Guest, does not have access to the root system user files/nor are they allowed to add 'new users' themselves.)-  
+-(**NOTE**: Guest, does not have access to the root system user files/they cannot see into other peoples folder directories/nor are they allowed to add 'new users' themselves.)-  
 
 ### - Set date/timezone...
 
@@ -209,7 +210,7 @@ only this time you will sign in as...
 
 >>timedatectl set-timezone 'Europe/London'  
 
-...next, check the date/time is correct...
+...next, check the date/time is correct...(by looking at your own computer clock)...does the date as listed below match...?
 
 >>root@hostname~: date  
 >>Fri 1st Oct 2021 06:17:14 AM BST  
@@ -241,9 +242,14 @@ In order to 'stop the server running...you will need to do 2 things...
           and, also, be given a brand new IP address...to connect to...;  
           too, all of your previously entered server data/configurations would have completely vanished/gone...?!)-   
 
+
+
+
+
+
 ## Using SSH to operate the server remotely...
 
-SSH/Secure SHell...is a way you can run a server remotely...by using special software build for that same purpose.  
+SSH/Secure SHell...is a way you can run a server remotely...by using special software built for this same purpose.  
 
 ### - Running the server remotely...using SSH/Secure Shell...in Windows MS DOS/or, Powershell   
 
@@ -258,17 +264,43 @@ instead, I can use either: MS DOS Command Prompt/or, Powershell...; either way t
 
 ...then, it's possible to issue all of the same linux commands as is usual.  
 
+
+
+
+
+
 ### - Running the server using Putty software...
 
 I tried SSH-ing into Linode server using Putty software...  
 
-First, you type in the IP Address as: xx.xx.xx.xx  
+First, you type in the IP Address as: xx.xx.xx.xx    
+-(the above method allows you to choose who 'you' wish to sign is as...;      
+whereas, if you were to use, more specifically: root@xx.xx.xx.xx;  
+then, you would sign in as that specific user, instead)-  
+
 Next, you click [Open session]  
 Then, you are asked for your name: root  
-followed by password:  
-...if you typed your password, correctly; then, you are let in.  
+(or, type in whichever name you choose to select that also has a Linux user a/c. already set up on the computing system)  
 
->>root@localhost~:
+followed by password:  
+(the password you choose to type in is invisible/therefore, NOT shown...so, nobody can guess it who is looking over your back):        
+...if you typed your password, correctly; then, you are let in.  
+(you are given 3 time to guess the password; before having to start, again)  
+...if your password is correct; then, you are let back into you account...  
+
+>>root@localhost~:  
+
+### - Putty: Saving a sign-in profile
+
+If you give the profile a name: choosenProfileName/then, click [Save] your profile details will be saved into Putty;      
+so, that next time you won't need to type in all of those same server IP address details repeatedly, over and over, again.      
+Next time you use Putty...; just select the previously saved profile...and, hit [Load]/next, click on [Open];    
+then, all you will need to do is just type in just your password.   
+
+
+
+
+
 
 ### - Running the server using FTP software/FileZilla...
 
