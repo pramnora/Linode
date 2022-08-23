@@ -280,13 +280,12 @@ then, you would sign in as that specific user, instead)-
 
 Next, you click [Open session]  
 Then, you are asked for your name: root  
-(or, type in whichever name you choose to select that also has a Linux user a/c. already set up on the computing system)  
+(or, type in whichever name you choose to select that also has a Linux user a/c. already set up on the computing system: admin/guest/other/-etc.)  
 
 followed by password:  
-(the password you choose to type in is invisible/therefore, NOT shown...so, nobody can guess it who is looking over your back):        
-...if you typed your password, correctly; then, you are let in.  
-(you are given 3 time to guess the password; before having to start, again)  
+(the password you choose to type in is invisible/therefore, NOT shown...so, nobody can guess it who is looking over your back):          
 ...if your password is correct; then, you are let back into you account...  
+(you are given 3 tries to guess the password; before having to start the whole SSH process all over, again)-  
 
 >>root@localhost~:  
 
