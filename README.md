@@ -203,6 +203,11 @@ only this time you will sign in as...
 
 -(**NOTE**: Guest, does not have access to the root system user files/they cannot see into other peoples folder directories/nor are they allowed to add 'new users' themselves.)-  
 
+If at any time you wish to know who is the current user on the Linux system; then, just type:  
+
+> guest@hostname~: whoami  
+> guest  
+
 ### - Add user as 'sudo'...
 
 >>root@hostname~: adduser userName sudo  
