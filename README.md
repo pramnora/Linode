@@ -51,11 +51,12 @@ Linode, create/build/run your own online servers...for a price.
 #### - How to clear data
 #### - Additional notes: Where to go in order to learn more...
 
-## Create your own Web Server
+## Create your own Web Server : Apache2
 ### - Setting up
 ### - Checking the default test web page inside of your browser
 ### - Replacing the default test web page with your own web page, instead
 ### - View your test web page inside of any web browser
+### - Running PHP files...in Apache2 web server
 ### - Additional notes 
 
 ## How to unistall programs...
@@ -721,7 +722,7 @@ To run 2.7.18 python code...
 
 
 
-## Create your own Web Server  
+## Create your own Web Server: Apache 2
 
 Believe it or not...; but, setting up and running your own Apache web server is really quite simple and easy to do...    
 
@@ -770,6 +771,12 @@ Press [CTRL]+[X], [Y] to confirm, [Enter] to re-write.
 
 Now, just like before, go over to your web browser software...; and, press the [F5] key to do a page refresh...;  
 and, you should see the test [index.html] web page...that you just went and created.  
+
+### - Running PHP files...in Apache2 web server
+
+- https://github.com/pramnora/php
+
+...checking out the above GitHub page -(also, created by me)- tells you more about how to set up/use PHP code on Apache2 web server.
 
 ### - Additional notes 
 
