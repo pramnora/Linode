@@ -28,7 +28,9 @@ Linode, create/build/run your own online servers...for a price.
 
 ## Some basic LINUX commands...
 ## Linux text editor(s): Nano/Vim/Vi/-etc.
+### - Using CLI as the text editor... 
 ### - Using Nano text editor...
+### - Using Vim text editor...
 ## Setting Linux file permissions...
 ## Creating/running scripts...
 ### - Creating/running your first BASH shell script...
@@ -400,9 +402,34 @@ before you try running any Linux based server.
 
 
 
+
 ## Linux text editor(s)...
 
-Linux, comes with many text editors: Nano/VIM/Vi/-etc.  
+Linux, comes with many text editors: CLI/Nano/VIM/Vi/-etc.  
+
+## Linux text editor(s): Nano/Vim/Vi/-etc.
+
+### - Using the CLI as a text editor...
+
+> touch fileName  
+
+...creates an 'empty' file  
+
+> echo Line 1 > fileName  
+
+...writes the text 'Line 1' into the file called: fileName  
+
+> echo Line 2 > fileName  
+
+...over writes the previous fileName contents to say: Line 2, instead.  
+
+> echo Line 3 >> fileName  
+
+...appends the text 'Line 3' to the end of fileName  
+
+> rm fileName  
+
+...deletes the fileName  
 
 ### - Using Nano text editor...
 
@@ -457,6 +484,31 @@ Nano editor
 
 
 
+
+### - Using Vim text editor...
+
+>root@localhost~: vim
+
+...opens the Vim text editor
+
+>root@localhost~: vim fileName
+
+...opens the Vim text editor with a fileName
+
+
+Pressing the 'i' key...puts you in INSERT mode...so, that you can enter some text
+
+Line 1
+
+Pressing [ESC]...returns you back to editor mode.
+
+[SHIFT]+[:] colon key puts you in command mode
+then, type...
+:q!
+...to quit without saving/
+or,...
+:qw
+...to quit whilst saving the file.
 
 
 
