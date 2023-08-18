@@ -502,13 +502,13 @@ Line 1
 
 Pressing [ESC]...returns you back to editor mode.
 
-[SHIFT]+[:] colon key puts you in command mode
-then, type...
-:q!
-...to quit without saving/
-or,...
-:qw
-...to quit whilst saving the file.
+[SHIFT]+[:] colon key puts you in command mode  
+then, type...    
+:q!  
+...to quit without saving/  
+or,...  
+:wq    
+...to quit whilst saving the file.  
 
 
 
