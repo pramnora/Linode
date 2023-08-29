@@ -32,6 +32,8 @@ Linode, create/build/run your own online servers...for a price.
 ### - Using Nano text editor...
 ### - Using Vim text editor...
 ## Setting Linux file permissions...
+## **How to hide a file...from being seen by doing a normal listing(ls)...**  
+
 ## Creating/running scripts...
 ### - Creating/running your first BASH shell script...
 
@@ -568,6 +570,23 @@ In order to set file permissions...use the command: (chmod)...
 > chmod 000 filename...    
 
 ...would mean...no permissions being granted to anyone.  
+
+## **How to hide a file...from being seen by doing a normal listing(ls)...**  
+
+It should be noted that even if a file has set 000 permisions;  
+so, that nobody can: read/write/execute it...; yet,  
+it's filename can still be seen in any file listing by using command:  
+
+> ls  
+  
+so, if you wish to hide a life from being seen by the normal, ls/or, ls -l;   
+then, you have to prefix that file with a .filename;  
+files with .filename...are regarded as being system files;  
+you can still see these hidden system files if you type:  
+
+> ls -al  
+
+
 
 
 
