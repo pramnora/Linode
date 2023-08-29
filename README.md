@@ -549,16 +549,14 @@ In order to set file permissions...use the command: (chmod)...
 
 > chmod 0 filename = nil permission         
 > chmod 1 filename = execute      
-> chmod 2 filename = read    
-> chmod 3 filename = execute/read  
-> chmod 4 filename = write    
-> chmod 5 filename = execute/write  
+> chmod 2 filename = write    
+> chmod 3 filename = write/execute  
+> chmod 4 filename = read    
+> chmod 5 filename = read/execute  
 > chmod 6 filename = read/write  
 > chmod 7 filename = read/write/execute       
 
 **NOTE**: These numbers can be added up to form totals...so, 1(x)+2(r)+4(w)=7...; or, 'rwx'...meaning, all permissions being granted.  
-
--(**NOTE(2)**: I'm not absolutely 100% sure I got all of these numbers quite right...; so, will have to go do a check...?!)-  
 
 ...so, the command...    
 
