@@ -755,7 +755,15 @@ To run 2.7.18 python code...
 
 > chmod +x hw01.go  
 > go run hw01.go  
-> Hello, world!  
+> Hello, world!
+
+Find out which version of go you have downloaded:  
+
+> go version  
+> go version go1.18.1 linux/amd64  
+
+
+
 
  
 
