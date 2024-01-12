@@ -42,8 +42,11 @@ Linode, create/build/run your own online servers...for a price.
 ### - Installing Python...
 #### - To create and run a python program file: [.py]...   
 
-### - Installing Ruby...
-#### - To create and run a ruby program file: [.rb]...
+### - Installing Ruby...  
+#### - To create and run a ruby program file: [.rb]...  
+  
+### - Installing Go  
+#### - To create and run a go p[rogram file: [.go]...  
 
 ### Installing Redis database...
 #### - Check Redis is fully up and working
@@ -720,6 +723,37 @@ To run 2.7.18 python code...
 
 
 
+
+
+
+
+
+
+
+### - Installing Go  
+#### - To create and run a go p[rogram file: [.go]...  
+
+
+> apt install golang  
+> mkdir progams/go  
+> cd progams/go   
+> nano hw01.go  
+
+...enter the following program code...
+
+> package go  
+> import "fmt"  
+> func main(){  
+>  fmt.Println("Hello, world!")   
+> }   
+
+...save the file using: [CTRL]+[X], then, [y]  
+
+> chmod +x hw01.go  
+> go run hw01.go  
+> Hello, world!  
+
+ 
 
 
 
